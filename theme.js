@@ -5,6 +5,10 @@ const fontSizes = {
 	sm: '1:3rem',
 };
 
-const theme = extendTheme({ fontSizes });
+const config = {
+	initialColorMode: 'dark',
+};
+
+const theme = extendTheme({ config, fontSizes });
 
 export default theme;
