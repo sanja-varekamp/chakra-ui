@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button, Text, Heading, Link, useTheme } from '@chakra-ui/react';
 import CustomLink from '../components/CustomLink';
+import ToggleMode from '../components/ToggleMode';
 
 const Index = () => {
 	return (
@@ -10,6 +11,7 @@ const Index = () => {
 			</CustomLink>
 
 			<Heading>This is a heading</Heading>
+			<ToggleMode />
 		</div>
 	);
 };
