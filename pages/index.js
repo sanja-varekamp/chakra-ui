@@ -5,19 +5,11 @@ import CustomLink from '../components/CustomLink';
 const Index = () => {
 	return (
 		<div>
-			<CustomLink
-				href="/about"
-				ChakraComponent={Button}
-				m="1rem 3rem"
-				bg="teal"
-				textDecoration="none"
-				_hover={{
-					background: 'blue',
-					color: 'teal.500',
-				}}
-			>
+			<CustomLink href="/about" ChakraComponent={Button}>
 				This is a link
 			</CustomLink>
+
+			<Heading>This is a heading</Heading>
 		</div>
 	);
 };
